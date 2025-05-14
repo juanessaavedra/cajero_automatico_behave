@@ -1,0 +1,17 @@
+<!-- Consulta.html-->
+
+
+{% extends 'base.html' %}
+
+{% block header %}Consulta de Saldo{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <div class="mb-4">
+        <h3>Su saldo actual es:</h3>
+        <h2 class="display-4">${{ "{:,.2f}".format(saldo) }}</h2>
+    </div>
+    
+    <a href="{{ url_for('menu') }}" class="btn btn-primary btn-lg">Volver al Menú</a>
+</div>
+{% endblock %}

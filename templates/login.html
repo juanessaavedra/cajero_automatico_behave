@@ -1,0 +1,23 @@
+<!-- Login.html-->
+
+
+{% extends 'base.html' %}
+
+{% block header %}Bienvenido al banco de Temu{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <div class="text-center mb-4">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo del Banco" class="img-fluid" style="max-height: 100px;">
+    </div>
+    
+    <form action="{{ url_for('login') }}" method="post">
+        <div class="mb-4">
+            <label for="password" class="form-label">Ingrese su contraseña:</label>
+            <input type="password" class="form-control text-center" id="password" name="password" required autofocus>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg me-2">Ingresar</button>
+        <a href="#" class="btn btn-danger btn-lg" onclick="window.close()">Salir</a>
+    </form>
+</div>
+{% endblock %}

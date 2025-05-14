@@ -1,0 +1,38 @@
+# Entorno virtual - NUNCA subir estos
+bin/
+lib/
+include/
+pyvenv.cfg
+__pycache__/
+*.pyc
+.Python
+pip-selfcheck.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Archivos de pruebas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Base de datos SQLite (si la usaras)
+*.db
+*.sqlite3

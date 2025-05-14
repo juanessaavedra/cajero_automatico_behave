@@ -1,0 +1,26 @@
+<!-- Menu.html-->
+
+
+{% extends 'base.html' %}
+
+{% block header %}CAJERO ELECTRÓNICO{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <div class="text-center mb-4">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo del Banco" class="img-fluid" style="max-height: 100px;">
+    </div>
+    
+    <div class="alert alert-info mb-4">
+        <h4>Saldo disponible: ${{ "{:,.2f}".format(saldo) }}</h4>
+    </div>
+    
+    <div class="d-grid gap-2">
+        <a href="{{ url_for('consultar') }}" class="btn btn-primary atm-button">Consultar Saldo</a>
+        <a href="{{ url_for('retirar') }}" class="btn btn-primary atm-button">Retirar Dinero</a>
+        <a href="{{ url_for('depositar') }}" class="btn btn-primary atm-button">Depositar Dinero</a>
+        <a href="{{ url_for('cambiar_password') }}" class="btn btn-primary atm-button">Cambiar Contraseña</a>
+        <a href="{{ url_for('logout') }}" class="btn btn-danger atm-button">Salir</a>
+    </div>
+</div>
+{% endblock %}
