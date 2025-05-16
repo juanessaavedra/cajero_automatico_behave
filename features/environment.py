@@ -1,4 +1,3 @@
-# features/environment.py
 
 from app import app, USUARIO
 

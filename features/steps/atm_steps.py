@@ -1,4 +1,3 @@
-# features/steps/atm_steps.py
 
 from behave import given, when, then
 from flask import session

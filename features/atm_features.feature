@@ -1,4 +1,3 @@
-# ATM Gherkin Features (Spanish messages)
 
 Feature: Temu Bank ATM Machine
   As a bank customer
