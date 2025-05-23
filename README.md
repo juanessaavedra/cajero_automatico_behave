@@ -110,7 +110,7 @@ Verifican el comportamiento bajo múltiples usuarios concurrentes:
    - Abrir navegador en `http://localhost:8089`
    - Ingresar número de usuarios a simular (ej. 100)
    - Ingresar tasa de generación de usuarios (ej. 10 por segundo)
-   - Hacer clic en "Start swarming"
+   - Hacer clic en "Start"
    - Observar gráficos y estadísticas en tiempo real
    - Al finalizar, hacer clic en "Stop" y descargar resultados
 
