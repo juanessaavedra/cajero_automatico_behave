@@ -41,7 +41,7 @@ La aplicación estará disponible en `http://localhost:5000`
 
 # Ejecutar pruebas de una ruta específica
 pytest tests/
-```
+
 
 ### Pruebas BDD con Behave (Gherkin)
 ```bash
