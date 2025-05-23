@@ -37,13 +37,13 @@ python run.py
 
 La aplicación estará disponible en `http://localhost:5000`
 
-## 🧪 5. Ejecutar Pruebas
+### 🧪 5. Ejecutar Pruebas
 
-### Ejecutar pruebas de una ruta específica
+#### Ejecutar pruebas de una ruta específica
 pytest tests/
 
 
-### Pruebas BDD con Behave (Gherkin)
+#### Pruebas BDD con Behave (Gherkin)
 ```bash
 behave
 ```
@@ -51,9 +51,9 @@ behave
 ![Resultados BDD](assets/resultadogherkin.png)
 
 
-## 🔬 Pruebas Funcionales
+### 🔬 Pruebas Funcionales
 
-### 1. Pruebas Unitarias (Unit Tests)
+#### 1. Pruebas Unitarias (Unit Tests)
 Verifican el comportamiento de componentes individuales:
 ```bash
 # Ejecutar todas las pruebas unitarias
@@ -63,7 +63,7 @@ python -m pytest tests/unit/ -v
 ![Resultado pruebas unitarias](assets/resultadosunittest.png)
 
 
-### 2. Pruebas de Integración
+#### 2. Pruebas de Integración
 Verifican la interacción entre diferentes módulos del sistema:
 ```bash
 # Ejecutar todas las pruebas de integración
@@ -72,7 +72,7 @@ python -m pytest tests/integration/ -v
 
 ![Resultado pruebas integracion](assets/resultadointegracion.png)
 
-### 3. Pruebas Funcionales con Selenium
+#### 3. Pruebas Funcionales con Selenium
 Verifican el comportamiento end-to-end de la aplicación web:
 ```bash
 # Ejecutar todas las pruebas funcionales
@@ -81,9 +81,9 @@ python -m pytest tests/functional/ -v
 
 ![Resultado pruebas end-to-end](assets/resultadoselenium.png)
 
-## ⚡ Pruebas No Funcionales
+### ⚡ Pruebas No Funcionales
 
-### 1. Pruebas de Seguridad
+#### 1. Pruebas de Seguridad
 Verifican vulnerabilidades y manejo seguro de datos:
 ```bash
 # Ejecutar todas las pruebas de seguridad
@@ -91,7 +91,7 @@ python -m pytest tests/non_functional/test_security.py -v
 ```
 ![Resultado pruebas seguridad](assets/resultadonofuncionalseguridad.png)
 
-### 2. Pruebas de Carga con Locust
+#### 2. Pruebas de Carga con Locust
 Verifican el comportamiento bajo múltiples usuarios concurrentes:
 
 1. **Iniciar la aplicación** (en una terminal):
@@ -114,7 +114,7 @@ Verifican el comportamiento bajo múltiples usuarios concurrentes:
    - Observar gráficos y estadísticas en tiempo real
    - Al finalizar, hacer clic en "Stop" y descargar resultados
 
-### 3. Pruebas de Rendimiento con pytest-benchmark
+#### 3. Pruebas de Rendimiento con pytest-benchmark
 Miden el tiempo de ejecución y rendimiento de funciones críticas:
 ```bash
 # Ejecutar todas las pruebas de rendimiento
