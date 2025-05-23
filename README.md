@@ -39,7 +39,7 @@ La aplicación estará disponible en `http://localhost:5000`
 
 ## 🧪 Ejecutar Pruebas
 
-# Ejecutar pruebas de una ruta específica
+### Ejecutar pruebas de una ruta específica
 pytest tests/
 
 
@@ -57,7 +57,8 @@ behave
 Verifican el comportamiento de componentes individuales:
 ```bash
 # Ejecutar todas las pruebas unitarias
-python -m pytest tests/unit/ -v ```
+python -m pytest tests/unit/ -v
+```
 
 ![Resultado pruebas unitarias](assets/resultadosunittest.png)
 
@@ -66,7 +67,8 @@ python -m pytest tests/unit/ -v ```
 Verifican la interacción entre diferentes módulos del sistema:
 ```bash
 # Ejecutar todas las pruebas de integración
-python -m pytest tests/integration/ -v```
+python -m pytest tests/integration/ -v
+```
 
 ![Resultado pruebas integracion](assets/resultadointegracion.png)
 
@@ -74,7 +76,8 @@ python -m pytest tests/integration/ -v```
 Verifican el comportamiento end-to-end de la aplicación web:
 ```bash
 # Ejecutar todas las pruebas funcionales
-python -m pytest tests/functional/ -v```
+python -m pytest tests/functional/ -v
+```
 
 ![Resultado pruebas end-to-end](assets/resultadoselenium.png)
 
