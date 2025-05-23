@@ -32,6 +32,6 @@ Thumbs.db
 .coverage
 htmlcov/
 
-# Base de datos SQLite (si la usaras)
+# Base de datos SQLite
 *.db
 *.sqlite3
