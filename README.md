@@ -30,14 +30,14 @@ pip install -r requirements.txt
 ```
 
 
-### 5. Ejecutar la Aplicación
+### 4. Ejecutar la Aplicación
 ```bash
 python run.py
 ```
 
 La aplicación estará disponible en `http://localhost:5000`
 
-## 🧪 Ejecutar Pruebas
+## 🧪 5. Ejecutar Pruebas
 
 ### Ejecutar pruebas de una ruta específica
 pytest tests/
